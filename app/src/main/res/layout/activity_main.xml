@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="pro.xshservice.com.test_file.MainActivity">
+    >
 
     <EditText
         android:layout_width="match_parent"

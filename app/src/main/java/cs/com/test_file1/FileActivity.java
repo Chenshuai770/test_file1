@@ -19,7 +19,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class FileActivity extends AppCompatActivity implements View.OnClickListener {
 
     private EditText mEtMain;
     private Button mBtnMain1;
@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             runOnUiThread(new Runnable() {
                                 @Override
                                 public void run() {
-                                    Toast.makeText(MainActivity.this, "数据已经保存在+data.data.cs.com.test_file1.data1文件里面", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(FileActivity.this, "数据已经保存在+data.data.cs.com.test_file1.data1文件里面", Toast.LENGTH_SHORT).show();
                                 }
                             });
                         }

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_lp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="创建数据库" />
+
+        <Button
+            android:id="@+id/btn_lp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="加入数据库 insert"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_lp3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="更新数据库 update"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_lp4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="删除数据库 delete"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_lp5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询所有数据库  query"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_lp6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询第一条数据  query"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/btn_lp7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询最后一条数据  query"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/btn_lp8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询指定列数据  query"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/btn_lp9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询where约束条件数据库  query"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/btn_lp10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询order 排序约束条件数据库  query"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/btn_lp11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询limit 约束条件数据库  query"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/btn_lp12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询offset 约束条件数据库  query"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/btn_lp13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询offset 排序约束条件数据库  query"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_share1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入名字"
+        android:inputType="textCapSentences" />
+
+    <EditText
+        android:id="@+id/et_share2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入年龄"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_share3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="是否结婚(true/false)"
+        android:inputType="textCapSentences" />
+
+    <Button
+        android:id="@+id/btn_share1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="保存数据到sharepreferences" />
+
+    <Button
+        android:id="@+id/btn_share2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读出保存的sharepreferences" />
+
+    <Button
+        android:id="@+id/btn_share3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清空sharepreferences数据" />
+
+    <TextView
+        android:id="@+id/tv_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

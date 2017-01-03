@@ -1,4 +1,4 @@
-package cs.com.test_file1;
+package cs.com.test_file1.share;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import cs.com.test_file1.R;
 
 /**
  * Created by chenshuai on 2017/1/2.

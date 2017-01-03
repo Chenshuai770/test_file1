@@ -1,4 +1,4 @@
-package cs.com.test_file1;
+package cs.com.test_file1.file;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -18,6 +18,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+
+import cs.com.test_file1.R;
 
 public class FileActivity extends AppCompatActivity implements View.OnClickListener {
 

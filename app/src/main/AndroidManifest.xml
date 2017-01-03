@@ -3,24 +3,28 @@
     package="cs.com.test_file1">
 
     <application
+        android:name="org.litepal.LitePalApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FileActivity">
+        <activity android:name=".file.FileActivity">
 
         </activity>
-        <activity android:name=".ShareActitity">
+        <activity android:name=".share.ShareActitity">
 
         </activity>
-        <activity android:name=".DbActitity">
+        <activity android:name=".db.DbActitity">
+
+
+        </activity>
+        <activity android:name=".litepal.LitepalActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
     </application>
 
